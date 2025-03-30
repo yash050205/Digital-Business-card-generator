@@ -11,7 +11,6 @@ const Customizationpage = ({ selectedTheme, onNavigate }) => {
   const [photo, setPhoto] = useState(null);
   const [logo, setLogo] = useState(null);
   const [preview, setPreview] = useState(false);
-  const [cardImage, setCardImage] = useState(null); // Store image for sharing page
   const cardRef = useRef(null); // Ref for canvas capture
 
   const handlePhotoUpload = (e) => {
