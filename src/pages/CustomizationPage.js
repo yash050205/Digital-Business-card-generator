@@ -36,7 +36,7 @@ const Customizationpage = ({ selectedTheme, onNavigate }) => {
 
     html2canvas(cardRef.current, { backgroundColor: null }).then((canvas) => {
       const imgURL = canvas.toDataURL('image/png');
-      setCardImage(imgURL);
+      //setCardImage(imgURL);
       onNavigate('SharingPage', imgURL); // Send image to SharingPage
     });
   };
