@@ -36,7 +36,10 @@ const Customizationpage = ({ selectedTheme, onNavigate }) => {
 
     html2canvas(cardRef.current, { backgroundColor: null }).then((canvas) => {
       const imgURL = canvas.toDataURL('image/png');
+<<<<<<< HEAD
       //setCardImage(imgURL);
+=======
+>>>>>>> 95c52ef (adding package)
       onNavigate('SharingPage', imgURL); // Send image to SharingPage
     });
   };
@@ -56,7 +59,7 @@ const Customizationpage = ({ selectedTheme, onNavigate }) => {
     <div className="customization-page">
       <header className="header">
         <div className="logo-container">
-          <img src="./images/logo.png"  alt="CardMaster Logo" className="logo" />
+          <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="CardMaster Logo" className="logo" />
           <span className="brand-name">CardMaster</span>
         </div>
       </header>

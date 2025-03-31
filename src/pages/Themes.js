@@ -3,12 +3,12 @@ import '../App.css';
 
 // Data for themes with sample images (place your images in public/images/)
 const themesData = [
-  { id: 1, name: 'Classic Elegance', imageUrl: '/images/Classic-Elegance.png' },
-  { id: 2, name: 'Modern Minimal', imageUrl: '/images/Modern-Minimal.png' },
-  { id: 3, name: 'Vibrant Colors', imageUrl: '/images/Vibrant-Colors.png' },
-  { id: 4, name: 'Professional Bold', imageUrl: '/images/Professional-Bold.png' },
-  { id: 5, name: 'Sleek & Simple', imageUrl: '/images/Sleek-Simple.png' },
-  { id: 6, name: 'Artistic Flair', imageUrl: '/images/Artistic-Flair.png' },
+  { id: 1, name: 'Classic Elegance', imageUrl:  process.env.PUBLIC_URL + "/images/Classic-Elegance.png" },
+  { id: 2, name: 'Modern Minimal', imageUrl: process.env.PUBLIC_URL + "/images/Modern-Minimal.png" },
+  { id: 3, name: 'Vibrant Colors', imageUrl: process.env.PUBLIC_URL + "/images/Vibrant-Colors.png"  },
+  { id: 4, name: 'Professional Bold', imageUrl:  process.env.PUBLIC_URL + "/images/Professional-Bold.png"},
+  { id: 5, name: 'Sleek & Simple', imageUrl:  process.env.PUBLIC_URL + "/images/Sleek-Simple.png" },
+  { id: 6, name: 'Artistic Flair', imageUrl:  process.env.PUBLIC_URL + "/images/Artistic-Flair.png" },
 ];
 
 const Themes = ({ onBack, onProceed }) => {
@@ -31,7 +31,7 @@ const Themes = ({ onBack, onProceed }) => {
       <header className="header">
         <div className="logo-container">
           <img 
-            src="./images/logo.png" 
+            src={process.env.PUBLIC_URL + "/images/logo.png"}
             alt="CardMaster Logo" 
             className="logo"
           />

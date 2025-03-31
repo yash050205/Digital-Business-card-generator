@@ -1,13 +1,12 @@
 import React from 'react';
 import '../App.css';
-
 const LandingPage = ({ onGetStarted }) => {
   return (
     <div className="landing-page">
       <header className="header">
         <div className="logo-container">
           <img 
-            src="./images/logo.png" 
+            src={process.env.PUBLIC_URL + "/images/logo.png"}
             alt="CardMaster Logo" 
             className="logo"
           />

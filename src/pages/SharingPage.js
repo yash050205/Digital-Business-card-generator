@@ -36,7 +36,7 @@ const SharingPage = ({ businessCardData, onBack }) => {
     <div className="sharing-page">
       <header className="header">
         <div className="logo-container">
-          <img src="./images/logo.png"  alt="CardMaster Logo" className="logo" />
+          <img src={process.env.PUBLIC_URL + "/images/logo.png"}  alt="CardMaster Logo" className="logo" />
           <span className="brand-name">CardMaster</span>
         </div>
       </header>
