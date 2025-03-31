@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Digital-Business-card-generator/static/css/main.06624536.css",
+    "main.js": "/Digital-Business-card-generator/static/js/main.e32fcff3.js",
+    "static/js/453.171ddc7f.chunk.js": "/Digital-Business-card-generator/static/js/453.171ddc7f.chunk.js",
+    "index.html": "/Digital-Business-card-generator/index.html",
+    "main.06624536.css.map": "/Digital-Business-card-generator/static/css/main.06624536.css.map",
+    "main.e32fcff3.js.map": "/Digital-Business-card-generator/static/js/main.e32fcff3.js.map",
+    "453.171ddc7f.chunk.js.map": "/Digital-Business-card-generator/static/js/453.171ddc7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06624536.css",
+    "static/js/main.e32fcff3.js"
+  ]
+}
